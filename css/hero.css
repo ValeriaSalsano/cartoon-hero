@@ -1,3 +1,72 @@
 body{
-	background-color: salmon;
+	margin: 0;
+	font-family: 'Helvetica', 'Arial', sans-serif;
+	font-size: 15px;
+	line-height: 20px;
+	background-color: darkolivegreen;
+}
+
+header{
+	text-align: center;
+	padding-top: 40px;
+	padding-bottom: 50px;
+}
+
+h1, h2{
+	font-family: 'Dancing Script', cursive;
+}
+
+header h1{
+	color: white;
+	font-size: 70px;
+}
+
+header img{
+	border-radius: 150px;
+    width: 300px;
+    border: 3px solid aliceblue;
+}
+
+main{
+	max-width: 800px;
+	margin: 0 auto;
+	padding: 0 20px;
+}
+
+main img{
+	border-radius: 10px;
+    width: 470px;
+    border: 2px solid aliceblue
+}
+
+h2{
+	font-size: 40px;
+	color: white;
+	margin: 40px 0 10px;
+}
+
+a{
+	color: greenyellow;
+	font-size: 20px;
+}	
+a:hover{
+	color: darkolivegreen;
+	background-color: greenyellow;
+}
+
+footer{
+	background-color: darkolivegreen;
+	text-align: center;
+	color: black;
+	font-size: 10px;
+}
+
+footer a{
+	color: white;
+}
+
+p.caption{color: aliceblue;
+	font-style: italic;
+	margin-top: 0;
+	font-size: 13px;
 }
